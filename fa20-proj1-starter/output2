@@ -1,0 +1,6 @@
+gcc -g -Wall -std=c99 -c imageloader.c
+gcc -g -Wall -std=c99 -c steganography.c
+echo "Running steganography"
+Running steganography
+gcc -g -Wall -o steganography steganography.o imageloader.o
+./steganography testInputs/JohnConway.ppm > studentOutputs/secretMessage.ppm

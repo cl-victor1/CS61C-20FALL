@@ -1,0 +1,3 @@
+usage: ./gameOfLife filename rule
+    			filename is an ASCII PPM file (type P3) with maximum value 255.
+    			rule is a hex number beginning with 0x; Life is 0x1808.
